@@ -47,7 +47,7 @@ const projects:Array<Project> = [
     {
         id:5,
         title:"Weather App",
-        description:"This project is a weather app. It uses the open weather api to get the weather data .",
+        description:"This project is a weather app. It uses the open weather api to get the weather data.",
         img:weather_app,
         altText:"weather-app",
         url:"https://brent-the-carpenter.github.io/odin-weather-app/",
@@ -66,7 +66,7 @@ const projects:Array<Project> = [
 
     },
     {
-        id:6,
+        id:7,
         title:"Static Site Generator",
         description:`This project is a static site generator. 
         It uses python to read markdown files and generate html files.
@@ -76,6 +76,17 @@ const projects:Array<Project> = [
         altText:null,
         url:null,
         github:"https://github.com/Brent-the-carpenter/static_site_generator_boot.dev",
+    },
+    {
+        id:8,
+        title:"Maze solver",
+        description:`This project generates a maze that is made from cells essetially representing a matrix  and displays it on a 
+        tkinter canvas. It then solves the maze using the a implmentation of 
+        Depth First Traversal algorithm. As it solves the maze it displays the path it is taking to solve the maze in red and when it hits a dead end the path turns grey.`,
+        img:null,
+        altText:null,
+        url:null,
+        github:"https://github.com/Brent-the-carpenter/maze_solver_boot.dev"
     }
    
 

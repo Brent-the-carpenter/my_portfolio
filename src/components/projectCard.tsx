@@ -9,7 +9,7 @@ function ProjectCard({project}:{project:Project}){
         <p>{description}</p>
         <div className='linkContainer'>
         {url && <a href={url} target="_blank" rel='noopener noreferrer'>Live View</a>}
-        <a href={github} target="_blank" rel='noopener noreferrer'><img src={gitIcon} className='icon'/></a>
+        <a href={github} target="_blank" rel='noopener noreferrer'><img src={gitIcon} className='icon'/> </a>
         </div>
         </div>
     )
